@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px 0px 75px;
+  background-color: #303030;
+  color: white; /* REMOVE THIS PROBABLY */
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav {
+
+}
+
+.search-btn {
+
+}
+.nav ul {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 30px 0;
+}
+.nav ul li a {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100%;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.svg-icon.search-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+
+  /* On hover: blue strokes */
+  &:focus,
+  &:hover {
+    .search-path {
+      stroke: #299ecc;
+    }
+  }
+
+  /* On click: thicker black strokes  */
+  &:active {
+    .search-path {
+      stroke: white;
+      stroke-width: 2px;
+    }
+  }
+}
+
+
+.hero {
+  background-image: url("../img/bgs/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: 100% 100%; */
+  background-color: #303030;
+  padding-left: 80px;
+  padding-bottom: 80px;
+  padding-top: 250px;
+}
+
+.hero__hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  max-width: 700px;
+}
+
+.hero h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 124px;
+  font-weight: 400;
+  line-height: 100%;
+  color: white;
+  text-transform: capitalize;
+}
+
+.hero p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 29px;
+  color: white;
+}
+
+.hero button {
+  padding: 10px 65px;
+  border: none;
+  border-radius: 5px;
+
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 29px;
+  color: white;
+  background-color: #e8631c;
+  text-transform: uppercase;
+}
+
+
+
+
+.dance-tour {
+  padding: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+  background-image: url("../img/bgs/dance-tour-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section > h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  color: white;
+}
+
+section > p {
+  max-width: 900px;
+  text-align: center;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 29px;
+  color: white;
+}
+
+
+.dance-tour__cards {
+  display: flex;
+
+  justify-content: space-around;
+  width: 100%;
+}
+
+.dance-tour__card {
+  background-color: #303030;
+}
+
+
+.dance-tour__card-image-block {
+  background-color: red;
+}
+.dance-tour__card-image-block img {
+  display: block;
+  width: 100%;
+}
+
+.dance-tour__card-text-block {
+  padding: 35px 30px;
+  text-align: center;
+  max-width: 400px;
+}
+.dance-tour__card-heading {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 37px;
+  color: white;
+}
+
+.dance-tour__card-info {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+}
+
+
+
+.test1 {
+  background-color: blueviolet;
+  padding: 20px;
+}
+.test2 {
+  background-color: red;
+}
+.test2 p {
+  background-color: blue;;
+}
+.test2 span {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 25px;
+  background-color: #303030;
+}
+
+.test3 {
+  display: inline-block;
+}
+
+
+
+.pricing {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+  background-image: url("../img/bgs/pricing-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* MB UDALIT b 3 stroki */
+}
+
+
+.pricing__pricing-cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+
+
+.pricing__pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  padding-top: 60px;
+  text-align: center;
+
+
+  background-color: #e8631c;
+
+  border-radius: 5px;
+}
+
+.pricing__pricing-card-heading {
+  font-family: "Oswald";
+  font-weight: 600;
+  font-size: 37px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.pricing__pricing-card-info {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  max-width: 400px;
+}
+
+.pricing__pricing-card button {
+  background-color: #303030;
+  border: none;
+  border-radius: 5px;
+
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+
+  padding: 10px;
+  width: 100%;
+}
